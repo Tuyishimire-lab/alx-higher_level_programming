@@ -6,4 +6,6 @@
 
 ![work2](https://user-images.githubusercontent.com/68068538/133400283-94148e48-d990-468f-9463-07a0050bed4c.png)
 
+2-uniq_add.py:A function that adds all unique integers in a list (only once for each integer).
 
+![work 3](https://user-images.githubusercontent.com/68068538/133403191-3aa85d8d-2485-455f-947a-bf931fd99701.png)
