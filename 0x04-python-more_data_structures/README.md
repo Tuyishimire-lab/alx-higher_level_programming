@@ -9,3 +9,17 @@
 2-uniq_add.py:A function that adds all unique integers in a list (only once for each integer).
 
 ![work 3](https://user-images.githubusercontent.com/68068538/133403191-3aa85d8d-2485-455f-947a-bf931fd99701.png)
+
+3-common_elements.py: A function that returns a set of common elements in two sets.
+
+![work 4](https://user-images.githubusercontent.com/68068538/133411021-5467804f-2a56-48ff-a7ee-17f0d61f7b61.png)
+
+4-only_diff_elements.py:a function that returns a set of all elements present in only one set.
+
+![work 5](https://user-images.githubusercontent.com/68068538/133411857-9bc16be3-5c83-488e-bccd-78c9d0fad520.png)
+
+5-number_keys.py:a function that returns the number of keys in a dictionary.
+
+![work 6](https://user-images.githubusercontent.com/68068538/133412436-4292415b-a7a3-4c71-a3df-82e858f7151e.png)
+
+
