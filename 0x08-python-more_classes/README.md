@@ -1,4 +1,5 @@
 More on classes 
+
 0.define empty Rectangle class to use as a basis for all other files
 
 1.add private width and height attributes with @property getter and setter
