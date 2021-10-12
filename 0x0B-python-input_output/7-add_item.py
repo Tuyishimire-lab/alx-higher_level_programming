@@ -1,20 +1,21 @@
 #!/usr/bin/python3
-"""Module 7-add_item.
-Adds all arguments to a Python list,
-and then save them to a file.
-"""
+"""script that adds all arguments to a Python list
+and then save them to a file"""
+import sys
+import os.path
+from os import path
 
 
-
-from sys import argv
-save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
+save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 
-filename = "add_item.json"
+elems = sys.argv
+f = "add_item.json"
+elems.pop(0)
 
-try:
-    existing_content = load_from_json_file(filename)
-except FileNotFoundError:
-    existing_content = []
-
-save_to_json_file(existing_content + argv[1:], filename)
+if path.exists(f) is False:
+    save_to_json_file(elems, f)
+else:
+    f_data = load_from_json_file(f)
+    f_data.extend(elems)
+    save_to_json_file(f_data, f)
